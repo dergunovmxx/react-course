@@ -19,4 +19,17 @@
   img{
     margin: 1rem;
   }
+  table{
+    display: flex;
+    justify-content: center;
+
+
+  }
+  table{
+    th, tr, td{
+      padding: 0 45px 0 45px;
+      border: 3px solid aquamarine;
+    }
+  }
+
 }

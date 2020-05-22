@@ -1,5 +1,27 @@
 const data = {
   text: `
+<table>
+  <tr>
+    <th>№ п/п</th>
+    <th>Наименование</th>
+    <th>Цена, руб.</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Карандаш</td>
+    <td>20,00</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Линейка</td>
+    <td>30,00</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Ручка</td>
+    <td>30,00</td>
+  </tr>
+</table>
 <h1>Заголовок 1</h1>
 <h2>Заголовок 2</h2>
 <h3>Заголовок 3</h3>
@@ -17,7 +39,9 @@ const data = {
 </ol>
 <img src='/logo512.png' alt='asdasd' />
 `,
-  title: 'Первая новость'
+  title: 'Первая новость',
+  date: '22.05.2020',
+  img: '/img1.png'
 }
 
 export default data
