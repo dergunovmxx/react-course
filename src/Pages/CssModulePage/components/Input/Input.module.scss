@@ -1,0 +1,11 @@
+.input{
+  &:global(.input-onFocus) {
+    border-color: lime;
+  }
+  &:global(.input-isHovered) {
+    background: lime;
+  }
+  &.wide{
+    width: 400px;
+  }
+}

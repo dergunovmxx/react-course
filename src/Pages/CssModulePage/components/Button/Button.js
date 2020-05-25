@@ -9,12 +9,12 @@ function Button ({ className, isRed, label }) {
 
   const btnClass = classNames(
     css.btn,
-    className,
     {
       [css.red]: isRed,
       'btn-pressed': isPressed,
       'btn-over': !isPressed && isHovered
-    }
+    },
+    className
   )
   return (
     <button
